@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website!</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+	                 <span class="sr-only">Toggle navigation</span>
+	                 <span class="icon-bar"></span>
+	                 <span class="icon-bar"></span>
+	                 <span class="icon-bar"></span>
+                </button>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="nav-collapse">
+				<ul class="nav navbar-nav">
+	      			<li><a href="#home">Home</a></li>
+	      			<li id="project-btn"><a href="#">Projects</a></li>
+	      			<li><a href="#">Resume</a></li>
+				   	<li><a href="#">Contact</a></li>
+	    		</ul>
+    		</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1 id="jumbotron-header">Hello, my name is Michael Muinos.</h1>
+			<p id="jumbotron-desc">Girlfriend, cats, and programming sums up my day pretty nicely.
+			</p>
+		</div>
+	</div>
+
+	<div class="row" id="intro-wrapper">
+		<div class="col-xs-12 col-md-9" id="introduction">
+			<h1>Introduction</h1>
+			<p>Welcome to my portfolio site! I am a 4th year Computer Science student at California State Polytechnic University in Pomona, California. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
+			<p>If you continue on, you will find information on some personal projects I have done, take a look at my most up to date resume, and find my contact information.</p>
+			<h3>Thank you!</h3>
+		</div>
+		<div class="col-xs-12 col-md-3" id="image-container">
+			<img height="300px" width="300px" src="images/me.jpg">
+		</div>
+	</div>
+
+	<div style="background-color: #eee; overflow: auto;" id="projects-wrapper">
+		<h1 style="margin-bottom: 20px; color: #000000;">Projects</h1>
+		<div style="max-width: 1100px; height: 450px; margin: 0 auto; text-align: center; background-color: aquamarine; overflow: auto;" id="horde-clicker">
+			<div style="margin-top: 20px; margin-bottom: 30px;">
+				<img height="100px" width="200px" src="images/clickerlogo.png">
+			</div>
+			<div style="" id="clicker-game-container">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker1.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker2.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker3.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker4.png">
+				<img style="margin-right: 80px;" height="275px" width="175px" src="images/clicker5.png">
+			</div>
+		</div>
+		<div style="margin: 0 auto; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
+			<h5>A fun clicker game with a zombie infested theme built entirely for the android platform. I really enjoyed the original <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a> game, so this was my version of the game. It has achievements, statistics, and a nice UI to it!</h5>
+			<p>What I Learned:</p>
+			<ul>
+				<li>How to work with Android Studio</li>
+				<li>Implementing sound, animation, and vibration components to an android application</li>
+				<li>Designing for various screen sizes</li>
+			</ul>
+			<p>The game can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker">https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker</a>&nbsp&nbsp:)
+		</div>
+
+		<hr>
+
+		<div style="max-width: 1100px; height: 450px; margin: 0 auto; text-align: center; background-color: aquamarine; overflow: auto;" id="fact-hack">
+			<div style="margin-top: 20px; margin-bottom: 30px;">
+				<img height="100px" width="300px" src="images/facthacklogo.png">
+			</div>
+			<div id="clicker-game-container">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack1.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack2.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack3.png">
+				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack4.png">
+				<img style="margin-right: 80px;" height="275px" width="175px" src="images/facthack5.png">
+			</div>
+		</div>
+		<div style="margin: 0 auto; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
+			<h5>A fun clicker game with a zombie infested theme built entirely for the android platform. I really enjoyed the original <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a> game, so this was my version of the game. It has achievements, statistics, and a nice UI to it!</h5>
+			<p>What I Learned:</p>
+			<ul>
+				<li>How to work with Android Studio</li>
+				<li>Implementing sound, animation, and vibration components to an android application</li>
+				<li>Designing for various screen sizes</li>
+			</ul>
+			<p>The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
+		</div>
+
+		<hr>
+
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#project-btn').click(function(e){
+	 			scrollTo("#projects-wrapper");
+			});
+
+			function scrollTo(id) {
+			  $('html,body').animate({scrollTop: $(id).offset().top}, 'slow');
+			}	
+		});
+	</script>
+</body>
+</html>

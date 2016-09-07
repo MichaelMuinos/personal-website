@@ -1,0 +1,78 @@
+* {
+  	border-radius: 0 !important;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}
+
+#home {
+	overflow: auto;
+	background-color: #ff4f44;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+hr { 
+	background-color: black; 
+	height: 1px; 
+	border: 0;
+	max-width: 1100px;
+}
+
+#introduction p {
+	font-size: 1.5em;
+	line-height: 2;
+	color: #FFFFFF;
+}
+
+#introduction h3 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.jumbotron {
+	margin: 0;
+	background-color: #4C5364;
+}
+
+#jumbotron-header {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#jumbotron-desc {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#intro-wrapper {
+	overflow: auto;
+	background-color: #C26868;
+}
+
+#image-container {
+	margin-top: 40px;
+}
+
+#clicker-game-container {
+	float: right;
+}
