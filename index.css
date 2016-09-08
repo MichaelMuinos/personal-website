@@ -45,7 +45,6 @@ hr {
 }
 
 #introduction h3 {
-	text-align: center;
 	color: #FFFFFF;
 }
 
@@ -69,10 +68,31 @@ hr {
 	background-color: #C26868;
 }
 
-#image-container {
-	margin-top: 40px;
-}
-
 #clicker-game-container {
 	float: right;
+}
+
+#dynamic-header {
+	font-family: impact;
+	text-align: center;
+	color: #C26868;
+}
+
+.project-description {
+	line-height: 2;
+	font-weight: bold;
+	font-family: courier;
+}
+
+table {
+	float: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
 }
