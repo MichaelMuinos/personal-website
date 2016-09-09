@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="index.css">
+  	<link rel="stylesheet" type="text/css" href="index.css?version=2">
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
@@ -23,8 +23,9 @@
 				<ul class="nav navbar-nav">
 	      			<li><a href="#home">Home</a></li>
 	      			<li id="project-btn"><a href="#">Projects</a></li>
-	      			<li><a href="#">Resume</a></li>
-				   	<li><a href="#">Contact</a></li>
+	      			<li id="resume-btn"><a href="#">Resume</a></li>
+	      			<li id="code-btn"><a href="#">Code</a></li>
+				   	<li id="contact-btn" style="border-right: 1px solid #4C5364"><a href="#">Contact</a></li>
 	    		</ul>
     		</div>
 		</div>
@@ -45,7 +46,7 @@
 		<div class="col-xs-12 col-md-7" id="introduction">
 			<p>Welcome to my portfolio site! I am a 4th year Computer Science student at California State Polytechnic University in Pomona, California. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
 			<p>If you continue on, you will find information on some personal projects I have done, take a look at my most up to date resume, and find my contact information.</p>
-			<h3>Thank you!</h3>
+			<p>Thank you!</p>
 		</div>
 		<div class="col-xs-12 col-md-3" id="image-container">
 			<img height="300px" width="300px" src="images/me.jpg">
@@ -92,7 +93,7 @@
 				<img style="margin-right: 80px;" height="275px" width="175px" src="images/facthack5.png">
 			</div>
 		</div>
-		<div style="margin: 0 auto; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
+		<div style="margin: 0 auto; margin-bottom: 50px; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
 			<h5 class="project-description">An entertainment app that lets you look at thousands of categorized facts. Some features include a nice swipe left/right feature for easy readability, a daily fact updated each day, a favoriting system to view only the facts you enjoy the most, and finally a statistics area to see all the knowledge you have gained!</h5>
 			<p class="project-description">What I Learned:</p>
 			<ul class="project-description">
@@ -103,15 +104,16 @@
 			</ul>
 			<p class="project-description">The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
 		</div>
+	</div>
 
-		<div style="background-color: #ddd; overflow: auto; margin-top: 50px;" id="resume-wrapper">
+	<div style="background-color: #ddd; overflow: auto;" id="resume-wrapper">
 			<h1 style="color: #000000;">Resume</h1>
-			<div style="margin: 0 auto; width: 900px;">
+			<div style="margin: 0 auto; width: 700px;">
 				<p style="margin-top: 50px;">Education</p>
 				<hr>
 				<p><b>California Polytechnic State University</b>
 					<span style="float: right;">
-						<i>Expected: March 2017<i>
+						<i>Expected: March 2017</i>
 					</span>
 				</p>
 				<p><b>Bachelor of Science in Computer Science</b>
@@ -119,7 +121,7 @@
 						<i>Pomona, California</i>
 					</span>				
 				</p>
-				<p><b>GPA: 3.51 - Dean's List<b></p>
+				<p><b>GPA: 3.51 - Dean's List</b></p>
 				<p style="margin-top: 20px;">Related Courses</p>
 				<ul>
 					<!-- on hover of li's, say a message whether you liked it or not -->
@@ -223,7 +225,7 @@
 						    <td></td>
 					  	</tr>
 				</table>
-				<table style="margin-left: 30px;">
+				<table style="margin-top: 20px;">
 					<caption>Software</caption>
 						<tr>
 							<th></th>
@@ -261,7 +263,7 @@
 						    <td></td>
 					  	</tr>
 				</table>
-				<table style="margin-left: 30px; margin-top: 30px;">
+				<table style="margin-top: 20px;">
 					<caption>Development Tools</caption>
 						<tr>
 							<th></th>
@@ -285,8 +287,46 @@
 						    <td></td>
 					  	</tr>
 				</table>
+
+				<p style="margin-top: 50px;">Experience</p>
+				<hr>
+				<p><b>Reazon Systems, Inc.</b>
+					<span style="float: right;">
+						<i>Month to Month</i>
+					</span>
+				</p>
+				<p><b>Web Development Intern</b>
+					<span style="float: right;">
+						<i>Santa Ana, California</i>
+					</span>				
+				</p>
+				<p style="margin-top: 20px;">Accomplishments:</p>
+				<ul style="margin-bottom: 20px;">
+					<!-- on hover of li's, say a message whether you liked it or not -->
+					<li>Data Structures and Algorithms I</li>
+					<li>Data Structures and Algorithms II</li>
+					<li>C++ Programming</li>
+					<li>Computer Logic</li>
+					<li>Computer Organization and Assembly Programming</li>
+					<li>Design and Analysis of Algorithms</li>
+					<li>Language Translation and Automata</li>
+					<li>Programming Graphical User Interfaces</li>
+					<li>Python Programming</li>
+					<li>Numerical Methods</li>
+				</ul>
+				<p><b>Google Applied CS Course - Android Development</b>
+					<span style="float: right;">
+						<i>Month to Month</i>
+					</span>
+				</p>
+					<span style="float: right;">
+						<i>Pomona, California</i>
+					</span>
+				<ul style="margin-bottom: 20px;">
+					<li></li>
+				</ul>			
 			</div>
-		</div>
+	</div>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -298,8 +338,14 @@
 			    });
 			}, 3000);
 
-			$('#project-btn').click(function(e){
-	 			scrollTo("#projects-wrapper");
+			$("#project-btn").on('click', function(e) { 
+			    scrollTo("#projects-wrapper");
+			    return false;
+			});
+
+			$("#resume-btn").on('click', function(e){ 
+			    scrollTo("#resume-wrapper");
+			    return false;
 			});
 
 			function scrollTo(id) {

@@ -9,6 +9,8 @@
 
 .navbar {
 	margin: 0;
+	background-color: #C26868;
+	border: #C26868;
 }
 
 .navbar-nav {
@@ -19,6 +21,14 @@
 .navbar-nav li {
 	float: none;
 	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	border-left: 1px solid #4C5364;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
 }
 
 #home {
@@ -29,6 +39,8 @@
 h1 {
 	text-align: center;
 	color: #FFFFFF;
+	font-family: impact;
+	letter-spacing: .1em;
 }
 
 hr { 
@@ -42,10 +54,7 @@ hr {
 	font-size: 1.5em;
 	line-height: 2;
 	color: #FFFFFF;
-}
-
-#introduction h3 {
-	color: #FFFFFF;
+	font-family: monospace;
 }
 
 .jumbotron {
@@ -56,11 +65,13 @@ hr {
 #jumbotron-header {
 	text-align: center;
 	color: #FFFFFF;
+	font-family: impact;
 }
 
 #jumbotron-desc {
 	text-align: center;
 	color: #FFFFFF;
+	font-family: monospace;
 }
 
 #intro-wrapper {
@@ -84,13 +95,10 @@ hr {
 	font-family: courier;
 }
 
-table {
-	float: left;
-}
-
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    width: 100%;
 }
 th, td {
     padding: 5px;
