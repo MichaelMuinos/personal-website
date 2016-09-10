@@ -31,9 +31,73 @@
 	color: #ffffff;
 }
 
+.navbar-default .navbar-collapse {
+	border-color: #C26868;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #4C5364;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #4C5364;
+}
+
 #home {
 	overflow: auto;
 	background-color: #ff4f44;
+}
+
+li {
+	margin: 10px 0;
+}
+
+#class1:hover, #class1-desc p {
+	color: #C26868;
+}
+
+#class2:hover, #class2-desc p {
+	color: #C26868;
+}
+
+#class3:hover, #class3-desc p {
+	color: #C26868;
+}
+
+#class4:hover, #class4-desc p {
+	color: #C26868;
+}
+
+#class5:hover, #class5-desc p {
+	color: #C26868;
+}
+
+#class6:hover, #class6-desc p {
+	color: #C26868;
+}
+
+#class7:hover, #class7-desc p {
+	color: #C26868;
+}
+
+#class8:hover, #class8-desc p {
+	color: #C26868;
+}
+
+#class9:hover, #class9-desc p {
+	color: #C26868;
+}
+
+#class10:hover, #class10-desc p {
+	color: #C26868;
+}
+
+#class11:hover, #class11-desc p {
+	color: #C26868;
+}
+
+#class12:hover, #class12-desc p {
+	color: #C26868;
 }
 
 h1 {
