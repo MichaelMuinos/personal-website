@@ -100,6 +100,27 @@ li {
 	color: #C26868;
 }
 
+/* for tables in resume */
+.class-x {
+	background-color: honeydew;
+}
+
+.advanced {
+	color: green;
+}
+
+.proficient {
+	color: #7fbf7f;
+}
+
+.intermediate {
+	color: yellow;
+}
+
+.beginner {
+	color: red;
+}
+
 h1 {
 	text-align: center;
 	color: #FFFFFF;
@@ -166,4 +187,5 @@ table, th, td {
 th, td {
     padding: 5px;
     text-align: center;
+    font-size: 1.2em;
 }
