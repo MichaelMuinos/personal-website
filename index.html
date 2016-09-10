@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="index.css?version=2">
+  	<link rel="stylesheet" type="text/css" href="index.css?version=4">
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
@@ -54,13 +54,13 @@
 		<div class="col-md-1"></div>
 	</div>
 
-	<div style="background-color: #eee; overflow: auto;" id="project-wrapper">
-		<h1 style="margin-bottom: 20px; color: #000000;">Projects</h1>
-		<div style="max-width: 1100px; height: 450px; margin: 0 auto; text-align: center; background-color: #ffcccc; overflow: auto;" id="horde-clicker">
-			<div style="margin-top: 20px; margin-bottom: 30px;">
+	<div id="project-wrapper"> <!-- start of project wrapper -->
+		<h1>Projects</h1>
+		<div id="horde-clicker">
+			<div class="project-logo">
 				<img height="100px" width="200px" src="images/clickerlogo.png">
 			</div>
-			<div style="" id="clicker-game-container">
+			<div class="project-pic-container">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker1.png">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker2.png">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker3.png">
@@ -68,24 +68,24 @@
 				<img style="margin-right: 80px;" height="275px" width="175px" src="images/clicker5.png">
 			</div>
 		</div>
-		<div style="margin: 0 auto; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
-			<h5 class="project-description">A fun clicker game with a zombie infested theme built entirely for the android platform. I really enjoyed the original <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a> game, so this was my version of the game. It has achievements, statistics, and a nice UI to it!</h5>
-			<p class="project-description">What I Learned:</p>
-			<ul class="project-description">
+		<div class="project-desc">
+			<h5>A fun clicker game with a zombie infested theme built entirely for the android platform. I really enjoyed the original <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a> game, so this was my version of the game. It has achievements, statistics, and a nice UI to it!</h5>
+			<p>What I Learned:</p>
+			<ul>
 				<li>How to work with Android Studio</li>
 				<li>Implementing sound, animation, and vibration components to an android application</li>
 				<li>Designing for various screen sizes</li>
 			</ul>
-			<p class="project-description">The game can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker">https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker</a>&nbsp&nbsp:)
+			<p>The game can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker">https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker</a>&nbsp&nbsp:)
 		</div>
 
 		<hr>
 
-		<div style="max-width: 1100px; height: 450px; margin: 0 auto; text-align: center; background-color: #b2d8b2; overflow: auto;" id="fact-hack">
-			<div style="margin-top: 20px; margin-bottom: 30px;">
+		<div id="fact-hack">
+			<div class="project-logo">
 				<img height="100px" width="300px" src="images/facthacklogo.png">
 			</div>
-			<div id="clicker-game-container">
+			<div class="project-pic-container">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack1.png">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack2.png">
 				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack3.png">
@@ -93,99 +93,101 @@
 				<img style="margin-right: 80px;" height="275px" width="175px" src="images/facthack5.png">
 			</div>
 		</div>
-		<div style="margin: 0 auto; margin-bottom: 50px; padding: 25px; max-width: 1100px; background-color: #FFFFFF;">
-			<h5 class="project-description">An entertainment app that lets you look at thousands of categorized facts. Some features include a nice swipe left/right feature for easy readability, a daily fact updated each day, a favoriting system to view only the facts you enjoy the most, and finally a statistics area to see all the knowledge you have gained!</h5>
-			<p class="project-description">What I Learned:</p>
-			<ul class="project-description">
+		<div class="project-desc">
+			<h5>An entertainment app that lets you look at thousands of categorized facts. Some features include a nice swipe left/right feature for easy readability, a daily fact updated each day, a favoriting system to view only the facts you enjoy the most, and finally a statistics area to see all the knowledge you have gained!</h5>
+			<p>What I Learned:</p>
+			<ul>
 				<li>How to build a custom web crawler in Eclipse using a Java HTML Parser</li>
 				<li>How to organize my data into a PostgreSQL database and execute commands using JDBC</li>
 				<li>Creating a variety of PHP scripts in PhpStorm to return JSON formatted objects</li>
 				<li>Understanding of HTTP methods and how to use an HTTP Client library</li> 
 			</ul>
-			<p class="project-description">The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
+			<p>The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
 		</div>
-	</div>
+	</div> <!-- end of project wrapper -->
 
-	<div style="background-color: #ddd; overflow: auto;" id="resume-wrapper"> <!-- start of resume -->
-		<h1 style="color: #000000;">Resume</h1>
-		<div style="margin: 0 auto; width: 700px;">
-			<p style="margin-top: 50px; font-size: 1.2em; letter-spacing: 0.3em; font-family: impact;">EDUCATION</p>
+	<div id="resume-wrapper"> <!-- start of resume -->
+		<h1>Resume</h1>
+		<div id="resume-container">
+			<p class="resume-part-title">EDUCATION</p>
 			<hr>
 			<p><b>California Polytechnic State University</b>
-				<span style="float: right; font-family: monospace;">
+				<span class="resume-italic-section">
 					<i>Expected: March 2017</i>
 				</span>
 			</p>
 			<p><b>Bachelor of Science in Computer Science</b>
-				<span style="float: right; font-family: monospace;">
+				<span class="resume-italic-section">
 					<i>Pomona, California</i>
 				</span>				
 			</p>
 			<p><b>GPA: 3.51 - Dean's List</b></p>
-			<p style="margin-top: 20px; font-family: monospace;">Related Courses (<b>Hover over a class for a description!</b>)</p>
-			<ul style=" font-family: monospace;">
-				<li id="class1">Data Structures and Algorithms I</li>
-					<ul id="class1-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>This was a challenging, yet fun class. Linked and array-based data structures, lists, stacks, queues, hashing, searching, recursion, and an introduction to tree structure were the primary subjects of the course.</li>
-						<p>Grade Received: A</p>
-					</ul>
-				<li id="class2">Data Structures and Algorithms II</li>
-					<ul id="class2-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>One of my favorite classes thus far. The data structures that were covered in the course included trees, priority queues, graphs, heaps, sets, and maps. Additionally, sorting algorithms such as Merge, Quick, Bubble, Insertion, Heap, Counting, Selection, and Radix Sort were covered (some more than others). </li>
-						<p>Grade Received: A</p>
-					</ul>
-				<li id="class3">C++ Programming</li>
-					<ul id="class3-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>This was a challenging class for me coming from a Java background; however, it was nice to learn something new. The class covered class encapsulation, inheritance, polymorphism, exception handling, template class, and OOP design all in C++.</li>
-						<p>Grade Received: A</p>
-					</ul>
-				<li id="class4">Computer Logic</li>
-					<ul id="class4-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>Not my favorite class, but I can definitely say I learned alot. We covered boolean algebra with applications to computers and logic design, ALU, flip-flops, and sequential machines.</li>
-						<p>Grade Received: B+</p>
-					</ul>
-				<li id="class5">Computer Organization and Assembly Programming</li>
-					<ul id="class5-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>This class was ALOT of work, but it was well worth the time considering it was my first time working with Assembly Programming. A large portion of the class revolved around learning the MIPS architecture. Towards the end of the course, we did touch on ARM. Furthermore, we discussed I/O, interrupts, and addressing modes.</li>
-						<p>Grade Received: A-</p>
-					</ul>
-				<li id="class6">Design and Analysis of Algorithms</li>
-					<ul id="class6-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>This was a great class to expand my knowledge on various types of algorithms. Throughout the course, we covered algorithm design techniques including divide-and-conquer, the greedy method, dynamic programming, and backtracking. We also covered Merge Sort, Quick Sort, the Knapsack Problem, the Traveling Salesman, and Dijkstra's Algorithm.</li>
-						<p>Grade Received: A</p>
-					</ul>
-				<li id="class7">Language Translation and Automata</li>
-					<ul id="class7-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>Although an important course for understanding abstract machines, I can't say I enjoyed it! The class consisted of language translation, regular expressions, finite automata, lexical analysis, context-free grammars, and push down automata.</li>
-						<p>Grade Received: B+</p>
-					</ul>
-				<li id="class8">Programming Graphical User Interfaces</li>
-					<ul id="class8-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>Easy and fun class! The class consisted of getting into pairs and creating a variety of games using Swing in Java with the NetBeans IDE.</li>
-						<p>Grade Received: A</p>
-					</ul>
-				<li id="class9">Numerical Methods</li>
-					<ul id="class9-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>This was a very interesting class. We were required to code a spread of mathematical programs, some more fun than others. A description of the class includes error analysis, zeros of a function, systems of linear equations, interpolation, chebyshev approximation, least squares approximation, and numerical integration.</li>
-						<p>Grade Received: B+</p>
-					</ul>
-				<li id="class10">Python Programming</li>
-					<ul id="class10-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>I am currently in this class. Will be updated soon!</li>
-						<p>Grade Received: TBA</p>
-					</ul>
-				<li id="class11">Computer Architecture</li>
-					<ul id="class11-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>I am currently in this class. Will be updated soon!</li>
-						<p>Grade Received: TBA</p>
-					</ul>
-				<li id="class12">Programming Languages</li>
-					<ul id="class12-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-						<li>I am currently in this class. Will be updated soon!</li>
-						<p>Grade Received: TBA</p>
-					</ul>
-			</ul>
-			<p style="margin-top: 50px; font-size: 1.2em; letter-spacing: 0.3em; font-family: impact;">Skills</p>
+			<div class="resume-desc">
+				<p>Related Courses (<b>Hover over a class for a description!</b>)</p>
+				<ul>
+					<li id="class1">Data Structures and Algorithms I</li>
+						<ul id="class1-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This was a challenging, yet fun class. Linked and array-based data structures, lists, stacks, queues, hashing, searching, recursion, and an introduction to tree structure were the primary subjects of the course.</li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class2">Data Structures and Algorithms II</li>
+						<ul id="class2-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>One of my favorite classes thus far. The data structures that were covered in the course included trees, priority queues, graphs, heaps, sets, and maps. Additionally, sorting algorithms such as Merge, Quick, Bubble, Insertion, Heap, Counting, Selection, and Radix Sort were covered (some more than others). </li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class3">C++ Programming</li>
+						<ul id="class3-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This was a challenging class for me coming from a Java background; however, it was nice to learn something new. The class covered class encapsulation, inheritance, polymorphism, exception handling, template class, and OOP design all in C++.</li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class4">Computer Logic</li>
+						<ul id="class4-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>Not my favorite class, but I can definitely say I learned alot. We covered boolean algebra with applications to computers and logic design, ALU, flip-flops, and sequential machines.</li>
+							<p>Grade Received: B+</p>
+						</ul>
+					<li id="class5">Computer Organization and Assembly Programming</li>
+						<ul id="class5-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This class was ALOT of work, but it was well worth the time considering it was my first time working with Assembly Programming. A large portion of the class revolved around learning the MIPS architecture. Towards the end of the course, we did touch on ARM. Furthermore, we discussed I/O, interrupts, and addressing modes.</li>
+							<p>Grade Received: A-</p>
+						</ul>
+					<li id="class6">Design and Analysis of Algorithms</li>
+						<ul id="class6-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This was a great class to expand my knowledge on various types of algorithms. Throughout the course, we covered algorithm design techniques including divide-and-conquer, the greedy method, dynamic programming, and backtracking. We also covered Merge Sort, Quick Sort, the Knapsack Problem, the Traveling Salesman, and Dijkstra's Algorithm.</li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class7">Language Translation and Automata</li>
+						<ul id="class7-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>Although an important course for understanding abstract machines, I can't say I enjoyed it! The class consisted of language translation, regular expressions, finite automata, lexical analysis, context-free grammars, and push down automata.</li>
+							<p>Grade Received: B+</p>
+						</ul>
+					<li id="class8">Programming Graphical User Interfaces</li>
+						<ul id="class8-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>Easy and fun class! The class consisted of getting into pairs and creating a variety of games using Swing in Java with the NetBeans IDE.</li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class9">Numerical Methods</li>
+						<ul id="class9-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This was a very interesting class. We were required to code a spread of mathematical programs, some more fun than others. A description of the class includes error analysis, zeros of a function, systems of linear equations, interpolation, chebyshev approximation, least squares approximation, and numerical integration.</li>
+							<p>Grade Received: B+</p>
+						</ul>
+					<li id="class10">Python Programming</li>
+						<ul id="class10-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>I am currently in this class. Will be updated soon!</li>
+							<p>Grade Received: TBA</p>
+						</ul>
+					<li id="class11">Computer Architecture</li>
+						<ul id="class11-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>I am currently in this class. Will be updated soon!</li>
+							<p>Grade Received: TBA</p>
+						</ul>
+					<li id="class12">Programming Languages</li>
+						<ul id="class12-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>I am currently in this class. Will be updated soon!</li>
+							<p>Grade Received: TBA</p>
+						</ul>
+				</ul>
+			</div>
+			<p class="resume-part-title">Skills</p>
 			<hr>
 			<table>
 				<caption>Languages and Frameworks</caption>
@@ -281,7 +283,7 @@
 					    <td></td>
 				  	</tr>
 			</table>
-			<table style="margin-top: 20px;">
+			<table>
 				<caption>Software</caption>
 					<tr>
 						<th></th>
@@ -333,7 +335,7 @@
 				  		<td></td>
 				  	</tr>
 			</table>
-			<table style="margin-top: 20px;">
+			<table>
 				<caption>Development Tools</caption>
 					<tr>
 						<th></th>
@@ -358,71 +360,75 @@
 				  	</tr>
 			</table>
 
-			<p style="margin-top: 50px; font-size: 1.2em; letter-spacing: 0.3em; font-family: impact;">Experience</p>
+			<p class="resume-part-title">Experience</p>
 			<hr>
 			<p><b>Reazon Systems, Inc.</b>
-				<span style="float: right;">
+				<span class="resume-italic-section">
 					<i>***</i>
 				</span>
 			</p>
 			<p><b>Web Development Intern</b>
-				<span style="float: right;">
+				<span class="resume-italic-section">
 					<i>Santa Ana, California</i>
 				</span>				
 			</p>
-			<p style="margin-top: 20px; font-family: monospace;">Accomplishments:</p>
-			<ul style="margin-bottom: 20px; font-family: monospace;">
-				<!-- on hover of li's, say a message whether you liked it or not -->
-				<li>Converted outdated code to incorporate a responsive design using Bootstrap and ColdFusion</li>
-				<li>Created a custom sidebar to better accomodate all screen sizes</li>
-					<ul>
-						<li>Resonsiveness done using media queries</li>
-					</ul>
-				<li>Applied JQuery to the footer of each page to use an <a href="https://jqueryui.com/accordion/">accordion</a></li>
-				<li>Responsible for ensuring Bootstrap classes are unique to existing code</li>
-			</ul>
-			<p style="margin-top: 50px;"><b>Google Applied CS Course - Android Development</b>
-				<span style="float: right;">
+			<div class="resume-desc">
+				<p>Accomplishments:</p>
+				<ul>
+					<!-- on hover of li's, say a message whether you liked it or not -->
+					<li>Converted outdated code to incorporate a responsive design using Bootstrap and ColdFusion</li>
+					<li>Created a custom sidebar to better accomodate all screen sizes</li>
+						<ul>
+							<li>Resonsiveness done using media queries</li>
+						</ul>
+					<li>Applied JQuery to the footer of each page to use an <a href="https://jqueryui.com/accordion/">accordion</a></li>
+					<li>Responsible for ensuring Bootstrap classes are unique to existing code</li>
+				</ul>
+			</div>
+			<p><b>Google Applied CS Course - Android Development</b>
+				<span class="resume-italic-section">
 					<i>***</i>
 				</span>
 			</p>
 			<p><b>Certificate of Completion:&nbsp&nbsp</b><a href="images/certificate.pdf">Certificate.pdf</a>
-				<span style="float: right;">
+				<span class="resume-italic-section">
 					<i>Pomona, California</i>
 				</span>
 			</p>
-			<p style="margin-top: 20px; font-family: monospace;">Source Code:</p>	
-			<ul style="margin-bottom: 20px; font-family: monospace;">
-				<li>***</li>
-			</ul>
-			<p style="font-family: monospace;">Accomplishments:</p>
-			<ul style="font-family: monospace;">
-				<li>Responsible for completing pre-work before the initial workshop date</li>
+			<div class="resume-desc"> <!-- start of resume-desc -->
+				<p>Source Code:</p>	
 				<ul>
-					<li>Implement a certain data structure</li>
-					<li>Create the basic layout for the future workshop in Android Studio</li>
+					<li>***</li>
 				</ul>
-				<li>Completed one app for each workshop using various data structures</li>
-				<li>Participated in a 'hackathon' type setting</li>
+				<p>Accomplishments:</p>
 				<ul>
-					<li>In a duo, created a fully functional memory game with sound and graphics within the timeframe of the workshop</li>
+					<li>Responsible for completing pre-work before the initial workshop date</li>
+					<ul>
+						<li>Implement a certain data structure</li>
+						<li>Create the basic layout for the future workshop in Android Studio</li>
+					</ul>
+					<li>Completed one app for each workshop using various data structures</li>
+					<li>Participated in a 'hackathon' type setting</li>
+					<ul>
+						<li>In a duo, created a fully functional memory game with sound and graphics within the timeframe of the workshop</li>
+					</ul>
 				</ul>
-			</ul>
+			</div> <!-- end of resume-desc -->
 		</div>
 	</div> <!-- end of resume -->
 
-	<div style="background-color: #eee; overflow: auto;" id="code-wrapper"> <!-- start of code section -->
-		<h1 style="color: #000000; margin-bottom: 50px;">Code</h1>
-		<div style="margin: 0 auto; width: 1000px;" id="code-example-1">
-			<p><b style="font-size: 1.1em; letter-spacing: 0.1em;">Calculating a Chebyshev Polynomial - Dynamic Programming</b>
-				<span style="float: right;"><i style="font-family: monospace; font-size: 1.1em;">Code Example 1</i></span>
+	<div id="code-wrapper"> <!-- start of code section -->
+		<h1>Code</h1>
+		<div class="code-example">
+			<p><b>Calculating a Chebyshev Polynomial - Dynamic Programming</b>
+				<span><i>Code Example 1</i></span>
 			</p>
-			<div style="background-color: #FFFFFF; padding: 15px; font-family: monospace;">
-			<p>Chebyshev polynomials are a set of orthogonal polynomials used to approximate the best fit line given various data points. Additionally, they are connected with trigonometric mutiple-angle formulas.</p>
-			<p>The following program will calculate a Chebyshev Polynomial up to whatever the user enters. My approach was to use dynamic programming to calculate the polynomials above n = 1 due to the fact that the calculations are often repeated otherwise. With this method, calculating an extremely big n takes no more than a few milliseconds because we are building off of our previous calculations.</p>
+			<div>
+				<p>Chebyshev polynomials are a set of orthogonal polynomials used to approximate the best fit line given various data points. Additionally, they are connected with trigonometric mutiple-angle formulas.</p>
+				<p>The following program will calculate a Chebyshev Polynomial up to whatever the user enters. My approach was to use dynamic programming to calculate the polynomials above n = 1 due to the fact that the calculations are often repeated otherwise. With this method, calculating an extremely big n takes no more than a few milliseconds because we are building off of our previous calculations.</p>
 			</div>
 		</div>
-		<pre style="margin: 0 auto; margin-bottom: 100px; width: 1000px; height: 500px;">
+		<pre>
 			<code>
 	/**
 	 * The following program will calculate a Chebyshev Polynomial up the amount the user enters.
@@ -518,18 +524,18 @@
 			</code>
 		</pre>
 
-		<div style="margin: 0 auto; width: 1000px;" id="code-example-2">
-			<p><b style="font-size: 1.1em; letter-spacing: 0.1em;">Picture Organizer - A Python Program</b>
-				<span style="float: right; font-size: 1.1em;"><i>Code Example 2</i></span>
+		<div class="code-example">
+			<p><b>Picture Organizer - A Python Program</b>
+				<span><i>Code Example 2</i></span>
 			</p>
-			<div style="background-color: #FFFFFF; padding: 15px; font-family: monospace;">
-			<p>The following program will transfer all my pictures from my camera to their appropriate directories. Using the Tkinter module, it will pop up a small window allowing me to enter what I want to name the folder containing all of my new pictures. If the file I have entered has already been created, it will just go further into the subdirectories.</p>
-			<p>The files are stored in the following format:
-			E: \ My Digital Camera Pictures \ [Year] Pictures \ [Year] [Month]-[Day]-[Year] - [File Name I Give]\[All Pictures Go Here]</p>
-			<p>I wrote this program mainly to save time and ensure I wouldn't have to rename each picture with their appropriate timestamps.</p>
+			<div>
+				<p>The following program will transfer all my pictures from my camera to their appropriate directories. Using the Tkinter module, it will pop up a small window allowing me to enter what I want to name the folder containing all of my new pictures. If the file I have entered has already been created, it will just go further into the subdirectories.</p>
+				<p>The files are stored in the following format:
+				E: \ My Digital Camera Pictures \ [Year] Pictures \ [Year] [Month]-[Day]-[Year] - [File Name I Give]\[All Pictures Go Here]</p>
+				<p>I wrote this program mainly to save time and ensure I wouldn't have to rename each picture with their appropriate timestamps.</p>
 			</div>
 		</div>
-		<pre style="margin: 0 auto; margin-bottom: 100px; width: 1000px; height: 500px;">
+		<pre>
 			<code>
 	import time
 	import os

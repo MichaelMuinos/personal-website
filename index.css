@@ -2,6 +2,16 @@
   	border-radius: 0 !important;
 }
 
+li {
+	margin: 10px 0;
+}
+
+pre {
+	margin: 0 auto; 
+	width: 1000px; 
+	height: 500px;
+}
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -48,8 +58,82 @@
 	background-color: #ff4f44;
 }
 
-li {
-	margin: 10px 0;
+#project-wrapper, #code-wrapper {
+	background-color: #eee; 
+	overflow: auto; 
+}
+
+#project-wrapper h1, #code-wrapper h1 {
+	color: #000000;
+}
+
+#horde-clicker {
+	 max-width: 1100px; 
+	 height: 450px; 
+	 margin: 0 auto; 
+	 text-align: center; 
+	 background-color: #ffcccc; 
+	 overflow: auto; 
+}
+
+#fact-hack {
+	max-width: 1100px; 
+	height: 450px; 
+	margin: 0 auto; 
+	text-align: center; 
+	background-color: #b2d8b2; 
+	overflow: auto;
+}
+
+.project-logo {
+	margin-bottom: 30px;
+}
+
+.project-pic-container {
+	float: right;
+}
+
+.project-desc {
+	margin: 0 auto; 
+	padding: 25px; 
+	max-width: 1100px; 
+	background-color: #FFFFFF; 
+}
+
+.project-desc h5, .project-desc ul,
+.project-desc p {
+	line-height: 2;
+	font-weight: bold;
+	font-family: courier;
+}
+
+#resume-wrapper {
+	background-color: #ddd; 
+	overflow: auto; 
+}
+
+#resume-wrapper h1 {
+	color: #000000;
+}
+
+#resume-container {
+	margin: 0 auto; 
+	width: 700px;
+}
+
+.resume-part-title {
+	font-size: 1.2em; 
+	letter-spacing: 0.3em; 
+	font-family: impact;
+}
+
+.resume-italic-section {
+	float: right; 
+	font-family: monospace;
+}
+
+.resume-desc p, .resume-desc ul {
+	font-family: monospace;
 }
 
 #class1:hover, #class1-desc p {
@@ -121,6 +205,26 @@ li {
 	color: red;
 }
 
+.code-example {
+	margin: 0 auto; 
+	width: 1000px; 
+}
+
+.code-example b, .code-example i {
+	font-size: 1.1em; 
+	letter-spacing: 0.1em;
+}
+
+.code-example span {
+	float: right;
+}
+
+.code-example div {
+	background-color: #FFFFFF; 
+	padding: 15px; 
+	font-family: monospace;
+}
+
 h1 {
 	text-align: center;
 	color: #FFFFFF;
@@ -163,20 +267,10 @@ hr {
 	background-color: #C26868;
 }
 
-#clicker-game-container {
-	float: right;
-}
-
 #dynamic-header {
 	font-family: impact;
 	text-align: center;
 	color: #C26868;
-}
-
-.project-description {
-	line-height: 2;
-	font-weight: bold;
-	font-family: courier;
 }
 
 table, th, td {
