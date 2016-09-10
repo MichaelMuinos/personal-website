@@ -12,6 +12,59 @@ pre {
 	height: 500px;
 }
 
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: impact;
+}
+
+hr { 
+	background-color: black; 
+	height: 1px; 
+	border: 0;
+	max-width: 1100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.section-spacing-bottom-lg {
+	margin-bottom: 210px;
+}
+
+.section-spacing-top {
+	margin-top: 105px;
+}
+
+.section-spacing-bottom {
+	margin-bottom: 105px;
+}
+
+.section-spacing-top-small {
+	margin-top: 60px;
+}
+
+.section-spacing-bottom-small {
+	margin-bottom: 60px;
+}
+
+.section-spacing-top-xs {
+	margin-top: 25px;
+}
+
+.section-spacing-bottom-xs {
+	margin-bottom: 25px;
+}
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -58,6 +111,45 @@ pre {
 	background-color: #ff4f44;
 }
 
+#introduction p {
+	font-size: 1.5em;
+	line-height: 2;
+	color: #FFFFFF;
+	font-family: monospace;
+}
+
+/*#intro-pic {
+	margin-top: 150px;
+}*/
+
+.jumbotron {
+	margin: 0;
+	background-color: #4C5364;
+}
+
+#jumbotron-header {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: impact;
+}
+
+#jumbotron-desc {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: monospace;
+}
+
+#intro-wrapper {
+	overflow: auto;
+	background-color: #C26868;
+}
+
+#dynamic-header {
+	font-family: impact;
+	text-align: center;
+	color: #C26868;
+}
+
 #project-wrapper, #code-wrapper {
 	background-color: #eee; 
 	overflow: auto; 
@@ -65,6 +157,7 @@ pre {
 
 #project-wrapper h1, #code-wrapper h1 {
 	color: #000000;
+	font-size: 5em;
 }
 
 #horde-clicker {
@@ -79,7 +172,7 @@ pre {
 #fact-hack {
 	max-width: 1100px; 
 	height: 450px; 
-	margin: 0 auto; 
+	margin: 100px auto 0; 
 	text-align: center; 
 	background-color: #b2d8b2; 
 	overflow: auto;
@@ -87,14 +180,16 @@ pre {
 
 .project-logo {
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .project-pic-container {
 	float: right;
+	margin-bottom: 50px;
 }
 
 .project-desc {
-	margin: 0 auto; 
+	margin: 0 auto 100px; 
 	padding: 25px; 
 	max-width: 1100px; 
 	background-color: #FFFFFF; 
@@ -114,6 +209,7 @@ pre {
 
 #resume-wrapper h1 {
 	color: #000000;
+	font-size: 5em;
 }
 
 #resume-container {
@@ -122,6 +218,7 @@ pre {
 }
 
 .resume-part-title {
+	color: #4c4cff;
 	font-size: 1.2em; 
 	letter-spacing: 0.3em; 
 	font-family: impact;
@@ -184,7 +281,6 @@ pre {
 	color: #C26868;
 }
 
-/* for tables in resume */
 .class-x {
 	background-color: honeydew;
 }
@@ -223,63 +319,4 @@ pre {
 	background-color: #FFFFFF; 
 	padding: 15px; 
 	font-family: monospace;
-}
-
-h1 {
-	text-align: center;
-	color: #FFFFFF;
-	font-family: impact;
-}
-
-hr { 
-	background-color: black; 
-	height: 1px; 
-	border: 0;
-	max-width: 1100px;
-}
-
-#introduction p {
-	font-size: 1.5em;
-	line-height: 2;
-	color: #FFFFFF;
-	font-family: monospace;
-}
-
-.jumbotron {
-	margin: 0;
-	background-color: #4C5364;
-}
-
-#jumbotron-header {
-	text-align: center;
-	color: #FFFFFF;
-	font-family: impact;
-}
-
-#jumbotron-desc {
-	text-align: center;
-	color: #FFFFFF;
-	font-family: monospace;
-}
-
-#intro-wrapper {
-	overflow: auto;
-	background-color: #C26868;
-}
-
-#dynamic-header {
-	font-family: impact;
-	text-align: center;
-	color: #C26868;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-    padding: 5px;
-    text-align: center;
-    font-size: 1.2em;
 }
