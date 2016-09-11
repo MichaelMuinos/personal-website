@@ -7,9 +7,10 @@ li {
 }
 
 pre {
-	margin: 0 auto; 
+	margin: 0 auto 100px; 
 	width: 1000px; 
 	height: 500px;
+
 }
 
 h1 {
@@ -35,6 +36,10 @@ th, td {
     padding: 5px;
     text-align: center;
     font-size: 1.2em;
+}
+
+.section-spacing-top-lg {
+	margin-top: 210px;
 }
 
 .section-spacing-bottom-lg {
@@ -106,6 +111,10 @@ th, td {
 	background-color: #4C5364;
 }
 
+#contact-btn {
+	border-right: 1px solid #4C5364;
+}
+
 #home {
 	overflow: auto;
 	background-color: #ff4f44;
@@ -118,9 +127,10 @@ th, td {
 	font-family: monospace;
 }
 
-/*#intro-pic {
-	margin-top: 150px;
-}*/
+#intro-pic {
+	margin-left: 50px;
+	margin-top: 50px;
+}
 
 .jumbotron {
 	margin: 0;
@@ -157,12 +167,12 @@ th, td {
 
 #project-wrapper h1, #code-wrapper h1 {
 	color: #000000;
-	font-size: 5em;
+	font-size: 3em;
 }
 
 #horde-clicker {
 	 max-width: 1100px; 
-	 height: 450px; 
+	 height: 550px; 
 	 margin: 0 auto; 
 	 text-align: center; 
 	 background-color: #ffcccc; 
@@ -171,21 +181,39 @@ th, td {
 
 #fact-hack {
 	max-width: 1100px; 
-	height: 450px; 
+	height: 550px; 
 	margin: 100px auto 0; 
 	text-align: center; 
 	background-color: #b2d8b2; 
 	overflow: auto;
 }
 
+#mixtape-maker {
+	max-width: 1100px; 
+	height: 550px; 
+	margin: 100px auto 0; 
+	text-align: center; 
+	background-color: #778899; 
+	overflow: auto;
+}
+
+#mixtape-logo {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
 .project-logo {
 	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-top: 50px;
+}
+
+.project-logo p {
+
 }
 
 .project-pic-container {
 	float: right;
-	margin-bottom: 50px;
+	margin-top: 30px;
 }
 
 .project-desc {
@@ -209,7 +237,7 @@ th, td {
 
 #resume-wrapper h1 {
 	color: #000000;
-	font-size: 5em;
+	font-size: 3em;
 }
 
 #resume-container {
@@ -294,7 +322,7 @@ th, td {
 }
 
 .intermediate {
-	color: yellow;
+	color: #b2b200;
 }
 
 .beginner {
@@ -319,4 +347,29 @@ th, td {
 	background-color: #FFFFFF; 
 	padding: 15px; 
 	font-family: monospace;
+}
+
+/* large/medium screens */
+@media (min-width: 992px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+	.navbar-nav li {
+		display: inherit;
+		border-left: none;
+	}
+
+	#contact-btn {
+		border-right: none;
+	}
+
+	#intro-pic img {
+		height: 150px;
+		width: 150px;
+	}
 }
