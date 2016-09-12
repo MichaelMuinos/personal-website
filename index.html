@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Michael Muinos</title>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="jquery/jquery.js">
+  	<link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
   	<link rel="stylesheet" type="text/css" href="index.css?version=6">
 </head>
 <body>
@@ -50,7 +50,7 @@
 		<h1>Introduction</h1>
 		<div class="col-md-1"></div>
 		<div class="col-xs-12 col-md-7" id="introduction">
-			<p>Welcome to my portfolio site! I am going into my 5th year as a Computer Science student at California State Polytechnic University in Pomona, California. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
+			<p>Welcome to my portfolio site! I am going into my 5th year as a Computer Science student at California State Polytechnic University in Pomona. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
 			<p>If you continue on, you will find information on some personal projects I have done, take a look at my most up to date resume, and find my contact information. If you are just here for code, you can view my github link above, or look at the coding section :)</p>
 			<p>Thank you!</p>
 		</div>
@@ -88,7 +88,12 @@
 			<h5>A fun clicker game with a zombie infested theme built entirely for the android platform. I really enjoyed the original <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a> game, so this was my version of the game. It has achievements, statistics, and a nice UI to it!</h5>
 			<p>What I Learned:</p>
 			<ul>
-				<li>How to work with Android Studio</li>
+				<li>How to work with Android Studio and basics of making an app</li> 
+					<ul>
+						<li>Activity Lifecycle</li>
+						<li>Handling threading in an Android application</li>
+						<li>Working with List Views, Activities, Intent, etc.</li>
+					</ul>
 				<li>Implementing sound, animation, and vibration components to an android application</li>
 				<li>Designing for various screen sizes</li>
 			</ul>
@@ -152,7 +157,7 @@
 		<div class="project-desc">
 			<h5>This is a python program which will create a mixtape for you!</h5>
 			<p>Simply create a text file on your desktop and then, line by line, start typing songs you want downloaded (LEFT PICTURE). Then you can give your mixtape a title and click download (MIDDLE PICTURE). As the download process is happening, it will update you on if the specific song has found a video matching the titles you gave, as well as notify you when the download has finished. Once all downloads are complete, it will put your mixtape folder on your desktop with all mp3 formats (RIGHT PICTURE).</p>
-			<p>This was done using Youtube DL, a command line tool which allows you to download youtube videos. My way of improvement was by making it GUI friendly and giving the user the option to not use the command line and not have to give a specific URL.</p>
+			<p>This was done using Youtube DL, a command line tool which allows you to download youtube videos. My way of improvement was by giving the user the option to not use the command line, instead using the GUI window to download their music. Also, you are not required to give a specific URL to download a song.</p>
 			<p>What I Learned:</p>
 			<ul>
 				<li>Create URL query strings in Python</li>
@@ -456,14 +461,10 @@
 				</span>
 			</p>
 			<div class="section-spacing-top-xs section-spacing-bottom-lg resume-desc"> <!-- start of resume-desc -->
-				<p>Source Code:</p>	
-				<ul class="section-spacing-bottom-xs">
-					<li>***</li>
-				</ul>
 				<p>Accomplishments:</p>
 				<ul>
 					<li>Responsible for completing pre-work before the initial workshop date</li>
-					<ul>
+					<ul class="section-spacing-bottom-xs">
 						<li>Implement a certain data structure</li>
 						<li>Create the basic layout for the future workshop in Android Studio</li>
 					</ul>
@@ -471,6 +472,17 @@
 					<li>Participated in a 'hackathon' type setting</li>
 					<ul>
 						<li>In a duo, created a fully functional memory game with sound and graphics within the timeframe of the workshop</li>
+					</ul>
+				</ul>
+				<p>Source Code:</p>	
+				<ul>
+					<li>Memory Game(Made in final workshop)</li>
+					<ul>
+						<li><a href="https://github.com/JustPlainGoat/Google-Applied-CS-Apps/tree/master/MemoryGame">https://github.com/JustPlainGoat/Google-Applied-CS-Apps/tree/master/MemoryGame</a></li>
+					</ul>
+					<li>All other apps</li>
+					<ul>
+						<li><a href="https://github.com/JustPlainGoat/Google-Applied-CS-Apps">https://github.com/JustPlainGoat/Google-Applied-CS-Apps</a></li>
 					</ul>
 				</ul>
 			</div> <!-- end of resume-desc -->
