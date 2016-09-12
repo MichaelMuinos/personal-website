@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="index.css?version=5">
+  	<link rel="stylesheet" type="text/css" href="index.css?version=6">
 </head>
 <body>
 	<nav class="navbar navbar-default" role="navigation">
@@ -31,7 +31,13 @@
 		</div>
 	</nav>
 
-	<div class="jumbotron">
+	<div id="first-jumbo" class="jumbotron">
+		<div class="container">
+			<a href="https://github.com/JustPlainGoat"><p>Check out my Github <img src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/octocat.png" height="20" width="20"> @JustPlainGoat</p></a>
+		</div>
+	</div>
+
+	<div id="second-jumbo" class="jumbotron">
 		<div class="container">
 			<h1 id="jumbotron-header">Hello, my name is Michael Muinos.</h1>
 			<h1 id="dynamic-header">Programmer</h2>
@@ -44,28 +50,38 @@
 		<h1>Introduction</h1>
 		<div class="col-md-1"></div>
 		<div class="col-xs-12 col-md-7" id="introduction">
-			<p>Welcome to my portfolio site! I am a 4th year Computer Science student at California State Polytechnic University in Pomona, California. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
-			<p>If you continue on, you will find information on some personal projects I have done, take a look at my most up to date resume, and find my contact information.</p>
+			<p>Welcome to my portfolio site! I am going into my 5th year as a Computer Science student at California State Polytechnic University in Pomona, California. I am currently working part-time as a Software Development intern and am looking for further internships before graduation. After graduation, I plan to immediately start my job hunt to look for likeminded individuals to work with.</p>
+			<p>If you continue on, you will find information on some personal projects I have done, take a look at my most up to date resume, and find my contact information. If you are just here for code, you can view my github link above, or look at the coding section :)</p>
 			<p>Thank you!</p>
 		</div>
 		<div class="col-xs-12 col-md-3" id="intro-pic">
-			<img height="300px" width="300px" src="images/me.jpg">
+			<p><img align="middle" height="300px" width="300px" src="images/me.jpg"></p>
 		</div>
 		<div class="col-md-1"></div>
 	</div>
 
 	<div id="project-wrapper"> <!-- start of project wrapper -->
 		<h1 class="section-spacing-top section-spacing-bottom">Projects</h1>
-		<div id="horde-clicker">
-			<div class="project-logo">
+		<div id="horde-clicker" class="row">
+			<div class="project-logo col-xs-12">
 				<img height="100px" width="200px" src="images/clickerlogo.png">
 			</div>
-			<div class="project-pic-container">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker1.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker2.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker3.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/clicker4.png">
-				<img style="margin-right: 80px;" height="275px" width="175px" src="images/clicker5.png">
+			<div class="project-pic-container row col-xs-12">
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/clicker1.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2"> 
+					<img height="275px" width="175px" src="images/clicker2.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/clicker3.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/clicker4.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/clicker5.png">
+				</div>
 			</div>
 		</div>
 		<div class="project-desc">
@@ -76,21 +92,31 @@
 				<li>Implementing sound, animation, and vibration components to an android application</li>
 				<li>Designing for various screen sizes</li>
 			</ul>
-			<p>The game can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker">https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker</a>&nbsp&nbsp:)
+			<p>The game can be downloaded <a href="https://play.google.com/store/apps/details?id=com.justplaingoatapps.clicker">here</a>.&nbsp:)</p>
 		</div>
 
 		<hr>
 
-		<div id="fact-hack">
-			<div class="project-logo">
-				<img height="100px" width="300px" src="images/facthacklogo.png">
+		<div id="fact-hack" class="row">
+			<div class="project-logo col-xs-12">
+				<img height="100px" width="200px" src="images/facthacklogo.png">
 			</div>
-			<div class="project-pic-container">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack1.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack2.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack3.png">
-				<img style="margin-right: 15px;" height="275px" width="175px" src="images/facthack4.png">
-				<img style="margin-right: 80px;" height="275px" width="175px" src="images/facthack5.png">
+			<div class="project-pic-container row col-xs-12">
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/facthack1.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/facthack2.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/facthack3.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/facthack4.png">
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-2">
+					<img height="275px" width="175px" src="images/facthack5.png">
+				</div>
 			</div>
 		</div>
 		<div class="project-desc">
@@ -102,31 +128,40 @@
 				<li>Creating a variety of PHP scripts in PhpStorm to return JSON formatted objects</li>
 				<li>Understanding of HTTP methods and how to use an HTTP Client library</li> 
 			</ul>
-			<p>The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
+			<p>The game can be downloaded <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">here</a>.&nbsp:)</p>
 		</div>
 
 		<hr>
 
-		<div id="mixtape-maker">
-			<div id="mixtape-logo">
-				<img height="200px" width="300px" src="images/mixtapelogo.png">
+		<div id="mixtape-maker" class="row">
+			<div class="project-logo col-xs-12">
+				<img height="200px" width="230px" src="images/mixtapelogo.png">
 			</div>
-			<div>
-				<img height="275px" width="300px" src="images/mixtapepic1.png"> ===>>
-				<img height="275px" width="350px" src="images/mixtapepic2.png"> ===>>
-				<img height="275px" width="300px" src="images/mixtapepic3.png">
+			<div id="mixtake-pic-container" class="row col-xs-12">
+				<div class="col-xs-11 col-md-4">
+					<img height="275px" width="300px" src="images/mixtapepic1.png"> 
+				</div>
+				<div class="col-xs-11 col-md-4">
+					<img height="275px" width="350px" src="images/mixtapepic2.png">
+				</div>
+				<div class="col-xs-11 col-md-4">
+					<img height="275px" width="300px" src="images/mixtapepic3.png">
+				</div>
 			</div>
 		</div>
 		<div class="project-desc">
-			<h5>An entertainment app that lets you look at thousands of categorized facts. Some features include a nice swipe left/right feature for easy readability, a daily fact updated each day, a favoriting system to view only the facts you enjoy the most, and finally a statistics area to see all the knowledge you have gained!</h5>
+			<h5>This is a python program which will create a mixtape for you!</h5>
+			<p>Simply create a text file on your desktop and then, line by line, start typing songs you want downloaded (LEFT PICTURE). Then you can give your mixtape a title and click download (MIDDLE PICTURE). As the download process is happening, it will update you on if the specific song has found a video matching the titles you gave, as well as notify you when the download has finished. Once all downloads are complete, it will put your mixtape folder on your desktop with all mp3 formats (RIGHT PICTURE).</p>
+			<p>This was done using Youtube DL, a command line tool which allows you to download youtube videos. My way of improvement was by making it GUI friendly and giving the user the option to not use the command line and not have to give a specific URL.</p>
 			<p>What I Learned:</p>
 			<ul>
-				<li>How to build a custom web crawler in Eclipse using a Java HTML Parser</li>
-				<li>How to organize my data into a PostgreSQL database and execute commands using JDBC</li>
-				<li>Creating a variety of PHP scripts in PhpStorm to return JSON formatted objects</li>
-				<li>Understanding of HTTP methods and how to use an HTTP Client library</li> 
+				<li>Create URL query strings in Python</li>
+				<li>Handling a multi-threaded application in Python</li>
+				<li>How to turn a python program into an executable</li>
+				<li>How to use the Tkinter module for the GUI window, labels, and text fields</li>
+				<li>Commands to download audio using Youtube DL</li>
 			</ul>
-			<p>The app can be downloaded at <a href="https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts">https://play.google.com/store/apps/details?id=com.michaelmuinosyahoo.facts</a>&nbsp&nbsp:)
+			<p>The source code can be viewed <a href="https://github.com/JustPlainGoat/Mix-Tape-Maker/blob/master/Converter.py">here</a>.&nbsp:)
 		</div>
 		<div class="section-spacing-top-lg"></div>
 	</div> <!-- end of project wrapper -->
@@ -404,7 +439,7 @@
 					<li>Converted outdated code to incorporate a responsive design using Bootstrap and ColdFusion</li>
 					<li>Created a custom sidebar to better accomodate all screen sizes</li>
 						<ul>
-							<li>Resonsiveness done using media queries</li>
+							<li>Responsiveness done using media queries</li>
 						</ul>
 					<li>Applied JQuery to the footer of each page to use an <a href="https://jqueryui.com/accordion/">accordion</a></li>
 					<li>Responsible for ensuring Bootstrap classes are unique to existing code</li>
@@ -647,7 +682,26 @@
 	app.mainloop()
 			</code>
 		</pre>
+		<div class="section-spacing-top-lg"></div>
 	</div> <!-- end of code section -->
+
+  	<div id="contact-wrapper">
+    	<h1 class="section-spacing-top section-spacing-bottom">Contact</h1>
+    	<div id="social" class="section-spacing-bottom-small row">
+	      	<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="images/mail.png" width="84px" height="84px">
+				<p><a href="mailto:michaelmuinos@yahoo.com">michaelmuinos@yahoo.com</a></p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="images/fb.png" width="84px" height="84px">
+				<p><a href="https://www.facebook.com/michael.muinos">facebook.com/michaelmuinos</a></p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<img src="images/phone.png" width="84px" height="84px">
+				<p>(909)767-1696</p>
+			</div>
+    	</div>
+  	</div>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -678,6 +732,7 @@
 			setButtonClick("#project-btn", "#project-wrapper");
 			setButtonClick("#resume-btn", "#resume-wrapper");
 			setButtonClick("#code-btn", "#code-wrapper");
+			setButtonClick("#contact-btn", "#contact-wrapper");
 
 			function setResumeHoverCSS(listID, descID) {
 				$(listID).mouseenter(function() {
