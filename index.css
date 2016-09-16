@@ -79,6 +79,9 @@ th, td {
 	margin: 0;
 	background-color: #C26868;
 	border: #C26868;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
 }
 
 .navbar-nav {
@@ -141,9 +144,8 @@ th, td {
 }
 
 #first-jumbo {
-	padding-top: 0px;
 	padding-bottom: 0px;
-	padding-top: 7px;
+	padding-top: 80px;
 	padding-bottom: 0px;
 	background-color: #353a46;
 }
@@ -231,6 +233,11 @@ th, td {
 	margin-top: 50px;
 }
 
+.project-title {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
 .project-pic-container {
 	margin-top: 30px;
 }
@@ -276,7 +283,7 @@ th, td {
 	font-family: impact;
 }
 
-.resume-italic-section {
+.italic-section {
 	float: right; 
 	font-family: monospace;
 }
