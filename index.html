@@ -21,7 +21,7 @@
 
 		    <div class="collapse navbar-collapse" id="nav-collapse">
 				<ul class="nav navbar-nav">
-	      			<li><a href="#home">Home</a></li>
+	      			<li id="home-btn"><a href="#">Home</a></li>
 	      			<li id="project-btn"><a href="#">Projects</a></li>
 	      			<li id="resume-btn"><a href="#">Resume</a></li>
 	      			<li id="code-btn"><a href="#">Code</a></li>
@@ -742,7 +742,7 @@
 			setResumeHoverCSS("#class11","#class11-desc");
 			setResumeHoverCSS("#class12","#class12-desc");
 
-			// set button autoscrolls
+			setButtonClick("#home-btn", "#first-jumbo");
 			setButtonClick("#project-btn", "#project-wrapper");
 			setButtonClick("#resume-btn", "#resume-wrapper");
 			setButtonClick("#code-btn", "#code-wrapper");
