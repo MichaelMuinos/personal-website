@@ -198,7 +198,7 @@ th, td {
 
 #horde-clicker {
 	max-width: 1100px;
-	margin: 0 auto; 
+	margin: 100px auto 0; 
 	text-align: center; 
 	background-color: #ffcccc; 
 	overflow: auto; 
@@ -212,6 +212,14 @@ th, td {
 	overflow: auto;
 }
 
+#stat-track {
+	max-width: 1100px; 
+	margin: 100px auto 0; 
+	text-align: center; 
+	background-color: #778899; 
+	overflow: auto;
+}
+
 #mixtape-maker {
 	max-width: 1100px; 
 	margin: 100px auto 0; 
@@ -219,6 +227,7 @@ th, td {
 	background-color: #778899; 
 	overflow: auto;
 }
+
 
 #mixtake-pic-container {
 	margin-bottom: 50px;
@@ -349,6 +358,14 @@ th, td {
 }
 
 #class15:hover, #class15-desc p {
+	color: #C26868;
+}
+
+#class16:hover, #class16-desc p {
+	color: #C26868;
+}
+
+#class17:hover, #class17-desc p {
 	color: #C26868;
 }
 
