@@ -255,16 +255,26 @@
 						</ul>
 					<li id="class13">Operating Systems</li>
 						<ul id="class13-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-							<li>I am currently in this class. Grade will be updated soon!</li>
-							<p>Grade Received: TBA</p>
+							<li>Covered a variety of topics including process management, concurrency and synchronization, deadlock, processor management, scheduling and dispatch, memory management, virtual memory, and file systems.</li>
+							<p>Grade Received: B+</p>
 						</ul>
 					<li id="class14">Database Systems</li>
 						<ul id="class14-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
-							<li>I am currently in this class. Grade will be updated soon!</li>
-							<p>Grade Received: TBA</p>
+							<li>Covered data models (entity-relationship model, relational model and object oriented model), theory of database design and data manipulation processes using relational algebra and calculus. Finally, we learned about SQL in programming language environments.</li>
+							<p>Grade Received: A</p>
 						</ul>
 					<li id="class15">Software Engineering</li>
 						<ul id="class15-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>This class was revolved around software requirements and specifications, methodologies, tools, project management, cost estimation, and testing. In order to understand these concepts, it was required to create a DDOS detector GUI program with multiple teammates.</li>
+							<p>Grade Received: A</p>
+						</ul>
+					<li id="class16">Artificial Intelligence</li>
+						<ul id="class16-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
+							<li>I am currently in this class. Grade will be updated soon!</li>
+							<p>Grade Received: TBA</p>
+						</ul>
+					<li id="class17">Wireless Network Security</li>
+						<ul id="class17-desc" class="hidden-xs hidden-sm hidden-md hidden-lg" style="color: green;">
 							<li>I am currently in this class. Grade will be updated soon!</li>
 							<p>Grade Received: TBA</p>
 						</ul>
@@ -426,7 +436,7 @@
 			<hr>
 			<p><b>Computer Science Department Grader</b>
 				<span class="italic-section">
-					<i>November 2016 - Current</i>
+					<i>November 2016 - April 2017</i>
 				</span>
 			</p>
 			<p><b>Cal Poly Pomona Undergraduate</b>
@@ -737,10 +747,10 @@
 		$(document).ready(function() {
 			// changes word in jumbotron
 			setInterval(function() {
-			    $('#dynamic-header').fadeOut(500, function() {
+			    $('#dynamic-header').fadeOut(400, function() {
 			        var $this = $(this);
 			        $this.text($this.text() == 'Programmer' ? 'App Developer' : 'Programmer');             
-			        $this.fadeIn(500);
+			        $this.fadeIn(400);
 			    });
 			}, 2600);
 
@@ -760,6 +770,8 @@
 			setResumeHoverCSS("#class13","#class13-desc");
 			setResumeHoverCSS("#class14","#class14-desc");
 			setResumeHoverCSS("#class15","#class15-desc");
+			setResumeHoverCSS("#class16","#class16-desc");
+			setResumeHoverCSS("#class17","#class17-desc");
 
 			setButtonClick("#home-btn", "#first-jumbo");
 			setButtonClick("#project-btn", "#project-wrapper");
