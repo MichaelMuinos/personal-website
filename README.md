@@ -1,3 +1,4 @@
 # personal-website
-DEPRECATED
+**DEPRECATED**
+
 Personal, custom built website to view my projects and resume
